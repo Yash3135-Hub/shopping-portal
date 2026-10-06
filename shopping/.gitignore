@@ -1,0 +1,22 @@
+# Sensitive config files
+includes/config.php
+include/config.php
+
+# Uploaded media files
+productimages/*
+!productimages/.gitkeep
+
+# Database dumps (if any inside project)
+*.sql
+
+# System & IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.log
+
+# Archives
+*.zip
+*.rar
